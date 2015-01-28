@@ -10,7 +10,7 @@ class Connexion extends PDO
         $this->hote = 'localhost';
         $this->bd = 'cvven';
         $this->user = 'root';
-        $this->pass = 'root';
+        $this->pass = '';
         $dns = $this->sgbd.':dbname='.$this->bd.";host=".$this->hote;
         
         //Appel du constructeur parent
